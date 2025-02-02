@@ -12,7 +12,7 @@ def streamlit_menu(example=1):
        with st.sidebar:
            return option_menu(
                menu_title="Main Menu",
-               options=["Home", "Projects", "Contact","Chatbot","Leather_detection"],
+               options=["Home", "Projects", "Contact","Chatbot","Leather_detection","Deepseek","Chatgpt"],
                icons=["house", "book", "envelope"],
                menu_icon="cast",
                default_index=0
